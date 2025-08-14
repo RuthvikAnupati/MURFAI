@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+venv/
+.venv/
+ENV/
+env/
+
+# Secrets
+.env
+.env.*
+
+# Build/artefacts
+build/
+dist/
+*.egg-info/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Runtime uploads (user-generated)
+uploads/
