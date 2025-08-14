@@ -1,4 +1,4 @@
-# MURFAI – AI-Powered Text-to-Speech Platform
+# MIKA – AI-Powered Real-Time Voice Conversational Agent
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-🚀-green)
@@ -9,29 +9,24 @@
 
 ---
 ## 📌 Overview
-MURFAI is an AI-powered Text-to-Speech (TTS) application built with **FastAPI** and integrated with **Murf AI API** for generating high-quality speech from text.  
-The project provides REST APIs to upload text or files and receive generated speech in multiple formats.
+**MIKA** is a Voice-Enabled Conversational AI Web Application built with **FastAPI** as the backend and a modern web UI for real-time, two-way voice communication with an AI agent.
+
+The application allows users to speak naturally to the AI, processes the voice input via integrated APIs, and responds back with real-time AI-generated speech. This creates an interactive experience similar to talking with a human voice assistant.
 
 ---
 ## 🚀 Features
-- Convert text into natural-sounding speech
-- Upload files and process them into speech
-- API integration with Murf AI
-- Support for multiple voice profiles
-- FastAPI backend with REST endpoints
-- Configurable environment variables
+- 🎤 **Voice Input**: Speak directly to the AI agent through the browser.
+- 🧠 **AI Understanding**: Processes voice queries and understands context.
+- 🔊 **Voice Output**: AI responds back in realistic, high-quality speech.
+- ⚡ **FastAPI Backend**: High-performance, scalable API layer.
+- 🌐 **Web-Based UI**: Minimal, responsive, and interactive interface for a smooth experience.
 
 ---
 
 ## 🛠 Technologies Used
-- **Python 3.9+**
-- **FastAPI**
-- **httpx**
-- **dotenv**
-- **Pydantic**
-- **Murf AI API**
-- **Assembly AI API**
-- **Google Generative AI API**
+- **Frontend**: HTML, CSS, JavaScript (Responsive UI)
+- **Backend**: FastAPI (Python)
+- **APIs**: Murf Api , Assemblu API , Google API
 
 ---
 
