@@ -1,4 +1,4 @@
-# 🎙 AI Voice Assistant – FastAPI + Murf AI + AssemblyAI + Google Gemini
+# MURFAI – AI-Powered Text-to-Speech Platform
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-🚀-green)
@@ -6,6 +6,32 @@
 ![AssemblyAI](https://img.shields.io/badge/AssemblyAI-STT-yellow)
 ![GoogleGemini](https://img.shields.io/badge/Google-Gemini-lightblue)
 ![License](https://img.shields.io/badge/License-MIT-purple)
+
+---
+## 📌 Overview
+MURFAI is an AI-powered Text-to-Speech (TTS) application built with **FastAPI** and integrated with **Murf AI API** for generating high-quality speech from text.  
+The project provides REST APIs to upload text or files and receive generated speech in multiple formats.
+
+---
+## 🚀 Features
+- Convert text into natural-sounding speech
+- Upload files and process them into speech
+- API integration with Murf AI
+- Support for multiple voice profiles
+- FastAPI backend with REST endpoints
+- Configurable environment variables
+
+---
+
+## 🛠 Technologies Used
+- **Python 3.9+**
+- **FastAPI**
+- **httpx**
+- **dotenv**
+- **Pydantic**
+- **Murf AI API**
+- **Assembly AI API**
+- **Google Generative AI API**
 
 ---
 
@@ -68,24 +94,46 @@ GOOGLE_API_KEY=your_google_api_key
 ```
 
 ---
-
-## 🚀 Installation & Run
+## 📦 Installation & Running
+1. **Clone the repository**
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/ai-voice-assistant.git
-cd ai-voice-assistant
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate   # For Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run FastAPI server
-uvicorn main:app --reload --port 8000
+git clone https://github.com/RuthvikAnupati/MURFAI.git
+cd MURFAI
 ```
+
+2. **Create a virtual environment & activate**
+```bash
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate    # Windows
+```
+
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the API server**
+```bash
+uvicorn main:app --reload --port 4554
+```
+*(Change port number as needed)*
+
+---
+
+## 🔗 API Endpoints
+| Method | Endpoint         | Description                |
+|--------|-----------------|----------------------------|
+| POST   | `/upload`        | Upload text/file for TTS    |
+| GET    | `/audio/{id}`    | Retrieve generated audio    |
+| GET    | `/`              | Home / API status           |
+
+---
+
+## 📸 Screenshots
+Home Page <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/363a9e76-ef25-47bf-a461-31cfd829e56b" />
+Main Page <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c695f390-cc9b-4f33-a3cd-adcc6127e9a6" />
+
 
 ---
 
